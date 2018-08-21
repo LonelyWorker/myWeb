@@ -1,0 +1,418 @@
+@charset "UTF-8";
+/*头部*/
+body {
+  height: 1000px;
+  margin: 0;
+}
+
+.head {
+  font-size: 14px;
+  color: #ccc;
+  height: 32px;
+  line-height: 32px;
+  background-color: #3E3A39;
+}
+
+.head .top {
+  margin: 0;
+  padding: 0;
+  /*二维码*/
+}
+
+.head .top .title {
+  height: 32px;
+  line-height: 32px;
+}
+
+.head .top .title .emTitle {
+  margin: 0;
+  position: relative;
+}
+
+.head .top .title .emTitle em {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  font-size: 12px;
+}
+
+.head .top .title .emTitle img {
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+.head .top .erCode {
+  position: absolute;
+  top: 36px;
+  left: 80px;
+  background: #fff;
+  padding: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+  z-index: 99999;
+  display: none;
+}
+
+.head .top .erCode .sanjiao {
+  z-index: 9;
+  left: 5px;
+  top: -8px;
+  color: #fff;
+  position: absolute;
+  right: -8px;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.head .top .erCode img {
+  width: 200px;
+  height: 200px;
+}
+
+.head .top .titleTab {
+  margin: 0;
+  padding: 0;
+}
+
+.head .top .titleTab li a {
+  color: #f60;
+}
+
+.head .top .titleTab li a span {
+  padding: 0px 23px;
+  color: #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.head .top .titleTab li a span:hover {
+  color: #ababac;
+}
+
+.head .top .titleTab li a:hover {
+  color: rgba(171, 171, 172, 0.8);
+}
+
+.head .top .titleTab li:nth-child(1) span {
+  padding: 0px;
+  color: #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.head .top .titleTab li:nth-child(1) span:hover {
+  color: #ababac;
+}
+
+.head .top .titleTab li:nth-child(8) span {
+  border-right: 0 none;
+}
+
+/*底部*/
+.bottom {
+  margin-top: 16px;
+}
+
+.bottom .goodsLeft {
+  width: 413px;
+  float: left;
+}
+
+.bottom .goodsConter {
+  padding: 18px 86px 0;
+}
+
+.bottom .goodsConter .search {
+  width: 353px;
+  border: 4px solid #c40000;
+  border-right: 0 none;
+  padding-left: 12px;
+  color: #ccc;
+  outline: 0;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.bottom .goodsConter .searchBtn {
+  width: 89px;
+  height: 40px;
+  background: #c40000;
+  border: none;
+  font-size: 18px;
+  color: white;
+  outline: 0;
+}
+
+.bottom .goodsConter li a span {
+  padding: 0 6px;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+  color: #e9937f;
+}
+
+.bottom .goodsConter li:nth-child(8) span {
+  border: 0 none;
+}
+
+.bottom .goodsRight {
+  margin-top: 24px;
+  margin-right: 25px;
+}
+
+.bottom .goodsRight em {
+  background: url("../img/shopcar.png");
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+.bottom .goodsRight .calc {
+  position: relative;
+  width: 139px;
+  height: 34px;
+  font-size: 13px;
+  background: #f9f9f9;
+  border: 1px solid #dfdfdf;
+  line-height: 34px;
+}
+
+.bottom .goodsRight .calc a {
+  color: #666;
+  float: right;
+  padding-right: 8px;
+}
+
+.bottom .goodsRight .calc a:nth-child(1):hover {
+  color: #c40000;
+}
+
+.bottom .goodsRight .calc a .jsCode {
+  color: #CCC;
+  font-weight: 900;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.bottom .goodsRight .qipao {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url("../img/qipao.png");
+  color: #FFF;
+  top: -20px;
+  left: 4px;
+  line-height: 29px;
+  font-weight: 900;
+  text-align: center;
+}
+
+/*导航条*/
+nav .navList {
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+nav .navList li .caidan {
+  position: relative;
+}
+
+nav .navList li:first-child {
+  font-size: 18px;
+  padding: 0;
+  width: 185px;
+  height: 100%;
+  background: #CC0210;
+  position: relative;
+  text-align: center;
+  z-index: 999;
+}
+
+nav .navList li:first-child li {
+  float: none;
+  height: 45px;
+  background: rgba(196, 0, 0, 0.9);
+}
+
+nav .navList li:first-child li:hover {
+  background: rgba(196, 0, 0, 0.5);
+}
+
+nav .navList li:first-child li a {
+  display: block;
+}
+
+nav .navList li:first-child li a:hover {
+  color: white;
+}
+
+nav .navList li:first-child li a em {
+  color: rgba(255, 255, 255, 0.3);
+  float: right;
+  top: -2px;
+  font-size: 25px;
+}
+
+nav .navList li:first-child li a img {
+  display: block;
+  margin-top: 11px;
+  float: left;
+  margin-left: 10px;
+  margin-right: -5px;
+}
+
+nav .navList li:first-child li .sjBox {
+  position: absolute;
+  width: 1016px;
+  top: 0;
+  left: 185px;
+  border-top: 1px solid #ddd;
+  background: white;
+  color: black;
+  display: none;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft {
+  width: 733px;
+  padding-bottom: 141px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l {
+  padding: 15px 35px 0 40px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l:nth-child(3) {
+  width: 290px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l:nth-child(4) {
+  width: 290px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxTop {
+  height: 41px;
+  line-height: 41px;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  text-align: left;
+  color: black;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom {
+  text-align: left;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a {
+  display: inline-block;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a span {
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a span:not(.teMai) {
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+nav .navList li:first-child li .sjBox .boxRight {
+  width: 283px;
+  padding: 19px 17px;
+  background: #f6f6f6;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods {
+  width: 244px;
+  border: 1px solid #ccc;
+  border-right: 0 none;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods li {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods li img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goodsImg img {
+  display: block;
+}
+
+nav .navList li:first-child li:hover .sjBox {
+  display: block;
+}
+
+nav .navList li:first-child li:nth-child(9):hover .sjBox {
+  display: none;
+}
+
+nav .navList li:first-child a {
+  color: white;
+}
+
+nav .navList li:not(.navTitle) {
+  padding: 0 25px;
+}
+
+nav .navList li:nth-child(3) i.hot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url("../img/hoticon.gif") no-repeat top right;
+  z-index: -1000;
+}
+
+nav .navList li a {
+  color: black;
+  display: inline-block;
+}
+
+nav .navList li a:not(.navA):hover {
+  color: #c40000;
+}
+
+/*侧边栏*/
+.roll {
+  width: 32px;
+  padding: 70px 2px 46px;
+  background: #EAEAEA;
+  position: fixed;
+  right: 50px;
+}
+
+.roll .rollTop {
+  margin: 0;
+  padding: 0;
+}
+
+.roll li {
+  padding: 0  5px;
+  font-size: 14px;
+}
+
+.roll li span {
+  padding: 10px 10px;
+  border-bottom: 1px solid #000;
+}
+
+.roll li:hover {
+  background: red;
+}

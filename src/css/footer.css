@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/*底部*/
+.foot {
+  background: url("../img/footer_Bg.gif");
+}
+
+.foot .foot_top {
+  background: url("../img/footer_Bg.gif");
+  color: white;
+}
+
+.foot .foot_top .ftop {
+  border-bottom: 2px solid #ccc;
+}
+
+.foot .foot_top .ftop .top_l {
+  padding-top: 20px;
+  color: #000;
+}
+
+.foot .foot_top .ftop .top_l img {
+  diplay: inline-block;
+}
+
+.foot .foot_top .ftop .top_l .Wecat {
+  padding: 36px 0 0 13px;
+}
+
+.foot .foot_top .ftop .top_r {
+  padding: 10px 0;
+}
+
+.foot .foot_top .ftop .top_r .content {
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  text-align: right;
+}
+
+.foot .foot_top .ftop .top_r .codeImg {
+  width: 104px;
+  height: 104px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.foot .foot_top .ftop .top_r .codeImg img {
+  diplay: inline-block;
+  width: 100%;
+  vertical-align: center;
+}
+
+.foot .foot_top .fbottom .footer_link {
+  margin-top: 40px;
+}
+
+.foot .foot_top .fbottom .footer_link dl {
+  width: 170px;
+  float: left;
+}
+
+.foot .foot_top .fbottom .footer_link .firstDl {
+  margin-left: 100px;
+}
+
+.foot .foot_top .fbottom .footer_link a {
+  color: #ccc;
+}
+
+.foot .foot_top .fbottom .footer_link a:hover {
+  color: #c40000;
+}
+
+.foot_bottom {
+  padding: 83px;
+  text-align: center;
+  background: url("../img/baozheng_06.jpg") no-repeat;
+}
+
+.foot_bottom div {
+  padding: 10px 0;
+}
+
+.foot_bottom .b_top .friendLinkList a {
+  color: #000;
+}
+
+.foot_bottom .b_top .friendLinkList a:hover {
+  color: #c40000;
+}

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/*全局设置*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-size: 12px;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+span {
+  color: black;
+}
+
+img {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  color: black;
+  color: #ccc;
+  list-style: none;
+}
+
+a, em {
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  zoom: 1;
+  /*为了兼容IE浏览器*/
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clear {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

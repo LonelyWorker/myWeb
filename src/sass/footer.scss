@@ -1,0 +1,81 @@
+/*底部*/
+.foot{
+	background:url('../img/footer_Bg.gif');
+	.foot_top{
+		background:url('../img/footer_Bg.gif');
+		color: rgba(255, 255, 255, 1);
+		.ftop{
+			border-bottom:2px solid #ccc;
+			.top_l{
+				padding-top:20px;
+				color:#000;
+				img{
+					diplay:inline-block;
+				}
+				.Wecat{
+					padding:36px 0 0 13px;
+				}
+			}
+			.top_r{
+				padding:10px 0;
+				.content{
+					margin:0; 
+					padding:0;
+					padding-top:23px;
+					text-align:right;
+				}
+				.codeImg{
+					width:104px;
+					height:104px;
+					float:right;
+					margin:0; 
+					padding:0; 
+					img{
+						diplay:inline-block;
+						width:100%;
+	  					vertical-align: center;
+
+					}
+				}
+			}
+		}
+		.fbottom{
+			.footer_link{
+				margin-top: 40px;
+				dl{
+					width:170px;
+					float:left;
+				}
+				.firstDl{
+					margin-left: 100px;
+				}
+				a{
+					color:#ccc;
+				}
+				a:hover{
+					color: rgba(196, 0, 0, 1);
+				}
+			}
+		}
+}
+
+}
+	.foot_bottom{
+		padding:83px;
+		text-align:center;
+		background: url('../img/baozheng_06.jpg') no-repeat;
+		div{
+			padding: 10px 0;
+		}
+		.b_top{
+			.friendLinkList{
+				a{
+					color:#000;
+					&:hover{
+						color: rgba(196, 0, 0, 1);
+					}
+
+				}
+			}
+		}
+	}
