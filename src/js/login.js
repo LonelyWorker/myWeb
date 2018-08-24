@@ -1,11 +1,11 @@
 jQuery($ => {
 	//获取元素
-	var $username = $('#txtUserName');
+	var $username = $('.username');
 	var $password = $('.password');
 	var $btn = $('.loginButton');
 
 	//定义事件
-	$btn.on('click', () => {
+	$btn.on('click', function(){
 		console.log(656);
 		//获取元素的值
 		var $_username = $username.val();
@@ -14,16 +14,15 @@ jQuery($ => {
 		$.ajax({
 			type: 'post',
 			url: '../api/login.php',
+			data: {username:$username, password:$password},
 			success: function(res){
 				console.log(res);
 				if(res === 'no'){
 					alert("用户名或密码不正确");
 				}else{
-					window.location.reload();
-					$(location).attr('href','../html/header.html');
+					console.log('no');
 				}
 			},
-			data: {'username':$username, 'password':$password}
 			
 		});
 	});
