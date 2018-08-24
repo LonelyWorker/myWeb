@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*全局*/
+body {
+  background: url("../img/login_bg.gif");
+}
+
+/*头部*/
+.header {
+  height: 89px;
+  line-height: 89px;
+  background: white;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.header .head {
+  padding: 0 120px;
+}
+
+.header .head .logoSpan a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header .head .logoSpan a i {
+  display: inline-block;
+  margin-top: -3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+}
+
+.header .head .logoSpan a i.set {
+  background: url("../img/loginIcon.gif") no-repeat -1px -1px;
+}
+
+.header .head .logoSpan a i.server {
+  background: url("../img/loginIcon.gif") no-repeat -25px -1px;
+}
+
+.header .head .logoSpan a.serverText {
+  color: #c40000;
+}
+
+/*尾部*/
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer a {
+  diplay: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #000;
+}
+
+.footer a:last-child {
+  border: 0 none;
+}
+
+.footer a:hover {
+  color: #ff0421;
+}

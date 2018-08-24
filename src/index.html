@@ -3,12 +3,728 @@
 <head>
 	<meta charset="UTF-8">
 	<title>首页</title>
-	<link rel="stylesheet" href="./lib/bootstrap.css">
+	<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<link rel="stylesheet" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.css">
+	<script src="./lib/jquery-3.3.1.js"></script>
+	<link rel="stylesheet" href="./css/base.css" />
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="stylesheet" href="./css/header.css">
+	<script src="./js/header.js"></script>
 </head>
 <body>
-	<div class="box">
+	<!-- 头部 -->
+	<header>
+		<div class="topHead">
+			<div class="container">
+				<div class="row top">
+					<div class="col-md-3">
+						<div class="title">
+							<div class="emTitle" style="width: 120px; cursor: pointer; position: relative;">
+								<em>
+									<img src="../img/ewms.png" alt="酒">
+								</em>&nbsp;
+								购酒网APP
+								&nbsp;
+								<em class="glyphicon glyphicon-menu-down"></em>
+							</div>
+						</div>
+					</div>
+					<!-- 二维码 -->
+					<div class="erCode">
+						<span class="sanjiao">◆</span>
+						<img src="../img/APP.png" alt="">
+					</div>
+
+					<div class="col-md-9 clear">
+						<ul class="titleTab clearfix">
+							<li>Hi,请&nbsp;<span><a href="javascript:">登录</a>&ensp;/&ensp;<a href="javascript:">注册</a>&nbsp;</span></li>
+							<li><a href="javascript:"><span>我的订单</span></a></li>
+							<li><a href="javascript:"><span>个人中心</span></a></li>
+							<li><a href="javascript:"><span>在线客服</span></a></li>
+							<li><a href="javascript:"><span>购酒公告</span></a></li>
+							<li><a href="javascript:"><span>帮助</span></a></li>
+							<li><a href="javascript:"><span>提意见</span></a></li>
+							<li><a href="javascript:"><span> <em>400-722-1919</em></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="head">
+			<div class="container">
+				
+			<!-- 头部中间广告图 -->
+			<div class="conter" style="cursor: pointer;">
+				<img src="../img/title.jpg" alt="广告图">
+			</div>
+			
+
+			
+				<div class="bottom clearfix">
+					<div class="goodsLeft clearfix">
+						<a href="javascript:"><img src="../img/gjw.jpg" alt="购酒网"></a>
+						<img src="../img/discount.gif" alt="打折" class="fr">
+					</div>
+					<div class="goodsConter fl">
+						<div class="inputSearch">
+							<input type="text" placeholder="茅台飞天" class="search fl">
+							<button class="searchBtn fl">搜索</button>
+						</div>
+						<div class="link">
+							<li><a href="javascript:"><span>茅台</span></a></li>
+							<li><a href="javascript:"><span>五粮液</span></a></li>
+							<li><a href="javascript:"><span>拉菲</span></a></li>
+							<li><a href="javascript:"><span>奔富</span></a></li>
+							<li><a href="javascript:"><span>洋河</span></a></li>
+							<li><a href="javascript:"><span>黄尾袋鼠</span></a></li>
+							<li><a href="javascript:"><span>剑南春</span></a></li>
+							<li><a href="javascript:"><span>泸州老窖</span></a></li>
+						</div>
+					</div>
+					<div class="goodsRight fr">
+						<div class="calc">
+							<a href="javascript:">
+								<em></em>
+								<span>去购物车结算</span>
+								<span class="jsCode">></span>
+								<div class="qipao">0</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<!-- 导航条 -->
+				<nav>
+					<div class="nav clearfix">
+						<ul class="navList clearfix">
+							 <li class="navTitle clearfix">
+							 <a href="javascript:" class="navA"><span>全部分类</span>
+							 </a>
+							 	<ul class="caidan clearfix">
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/ax-icon.png" alt="酒">
+							 				<span>一键选购</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/bj-icon.png" alt="酒">
+							 				<span>白酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/ptj-icon.png" alt="酒">
+							 				<span>葡萄酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/yj-icon.png" alt="酒">
+							 				<span>洋酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/hj-icon.png" alt="酒">
+							 				<span>黄酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/ysj-icon.png" alt="酒">
+							 				<span>清酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/pj-icon.png" alt="酒">
+							 				<span>啤酒</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/jjzb-icon.png" alt="酒">
+							 				<span>酒具周边</span>
+											<em>></em>
+							 			</a>
+							 			<div class="sjBox clearfix">
+							 				<div class="boxLeft fl">
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+												<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+								 				<div class="box_l fl">
+								 					<div class="boxTop clearfix">
+								 						<span class="fl">购酒推荐</span>
+								 					</div>
+								 					<div class="boxBottom">
+								 						<a href="javascript:"><span class="teMai">特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 						<a href="javascript:"><span>特卖会</span></a>
+								 					</div>
+								 				</div>
+							 				</div>
+											<div class="boxRight fl">
+								 				<div class="box_r">
+								 					<ul class="goods clearfix">
+								 						<li><a href="javascript:"><img src="../img/01.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/02.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/03.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/04.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/05.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/06.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/07.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/08.jpg" alt="酒"></a></li>
+								 						<li><a href="javascript:"><img src="../img/09.jpg" alt="酒"></a></li>
+								 					</ul>
+								 					<div class="goodsImg">
+								 						<img src="../img/44.jpg" alt="酒">
+								 					</div>
+								 				</div>
+											</div>
+							 			</div>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/xp-icon.png" alt="酒">
+							 				<span>新品</span>
+											<em>></em>
+							 			</a>
+							 		</li>
+							 		<li>
+							 			<a href="javascript:">
+							 				<img src="../img/qingcang.png" alt="酒">
+							 				<span>清仓</span>
+											<em>></em>
+							 			</a>
+							 		</li>
+							 	</ul>
+							 </li>
+							 <li><a href="javascript:"><span>首页</span></a></li>
+							 <li><a href="javascript:"><span>特卖会</span><i class="hot"></i></a></li>
+							 <li><a href="javascript:"><span>进口馆</span></a></li>
+							 <li><a href="javascript:"><span>商家采销</span></a></li>
+							 <li><a href="javascript:"><span>高端收藏</span></a></li>
+							 <li><a href="javascript:"><span>尾货直批</span></a></li>
+						<div class="fr">
+							<a href="javascript:"><img src="../img/diwangtejia.gif" alt="特价"></a>
+						</div>
+						</ul>
+					</div>
+				</nav>
+				</div>
+
+			</div>
+		</div>
+		
+	</header>
+	
+	<div class="banner">
 		<div class="container">
-			11112222
+			<div class="swiper">
+				
+			</div>
 		</div>
 	</div>
 </body>

@@ -5,44 +5,44 @@ body {
   margin: 0;
 }
 
-.head {
+.topHead {
   font-size: 14px;
   color: #ccc;
-  height: 32px;
-  line-height: 32px;
-  background-color: #3E3A39;
 }
 
-.head .top {
+.topHead .top {
+  height: 32px;
+  line-height: 32px;
   margin: 0;
   padding: 0;
+  background-color: #3E3A39;
   /*二维码*/
 }
 
-.head .top .title {
+.topHead .top .title {
   height: 32px;
   line-height: 32px;
 }
 
-.head .top .title .emTitle {
+.topHead .top .title .emTitle {
   margin: 0;
   position: relative;
 }
 
-.head .top .title .emTitle em {
+.topHead .top .title .emTitle em {
   display: inline-block;
   width: 12px;
   height: 12px;
   font-size: 12px;
 }
 
-.head .top .title .emTitle img {
+.topHead .top .title .emTitle img {
   display: block;
   width: 12px;
   height: 12px;
 }
 
-.head .top .erCode {
+.topHead .top .erCode {
   position: absolute;
   top: 36px;
   left: 80px;
@@ -53,7 +53,7 @@ body {
   display: none;
 }
 
-.head .top .erCode .sanjiao {
+.topHead .top .erCode .sanjiao {
   z-index: 9;
   left: 5px;
   top: -8px;
@@ -67,45 +67,45 @@ body {
   font-size: 16px;
 }
 
-.head .top .erCode img {
+.topHead .top .erCode img {
   width: 200px;
   height: 200px;
 }
 
-.head .top .titleTab {
+.topHead .top .titleTab {
   margin: 0;
   padding: 0;
 }
 
-.head .top .titleTab li a {
+.topHead .top .titleTab li a {
   color: #f60;
 }
 
-.head .top .titleTab li a span {
+.topHead .top .titleTab li a span {
   padding: 0px 23px;
   color: #ccc;
   border-right: 1px solid #ccc;
 }
 
-.head .top .titleTab li a span:hover {
+.topHead .top .titleTab li a span:hover {
   color: #ababac;
 }
 
-.head .top .titleTab li a:hover {
+.topHead .top .titleTab li a:hover {
   color: rgba(171, 171, 172, 0.8);
 }
 
-.head .top .titleTab li:nth-child(1) span {
+.topHead .top .titleTab li:nth-child(1) span {
   padding: 0px;
   color: #ccc;
   border-right: 1px solid #ccc;
 }
 
-.head .top .titleTab li:nth-child(1) span:hover {
+.topHead .top .titleTab li:nth-child(1) span:hover {
   color: #ababac;
 }
 
-.head .top .titleTab li:nth-child(8) span {
+.topHead .top .titleTab li:nth-child(8) span {
   border-right: 0 none;
 }
 
@@ -125,6 +125,7 @@ body {
 
 .bottom .goodsConter .search {
   width: 353px;
+  height: 40px;
   border: 4px solid #c40000;
   border-right: 0 none;
   padding-left: 12px;
@@ -217,6 +218,7 @@ nav .navList {
 }
 
 nav .navList li .caidan {
+  display: none;
   position: relative;
 }
 
@@ -367,6 +369,10 @@ nav .navList li:first-child a {
 
 nav .navList li:not(.navTitle) {
   padding: 0 25px;
+}
+
+nav .navList li:nth-child(3) {
+  position: relative;
 }
 
 nav .navList li:nth-child(3) i.hot {

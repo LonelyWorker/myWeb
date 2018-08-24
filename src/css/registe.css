@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/*注册*/
+/*全局*/
+body {
+  background: url("../img/login_bg.gif");
+}
+
+/*头部*/
+.header {
+  height: 89px;
+  line-height: 89px;
+  background: white;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.header .head {
+  padding: 0 120px;
+}
+
+.header .head .logoSpan a {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header .head .logoSpan a i {
+  display: inline-block;
+  margin-top: -3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 17px;
+  height: 17px;
+}
+
+.header .head .logoSpan a i.set {
+  background: url("../img/loginIcon.gif") no-repeat -1px -1px;
+}
+
+.header .head .logoSpan a i.server {
+  background: url("../img/loginIcon.gif") no-repeat -25px -1px;
+}
+
+.header .head .logoSpan a.serverText {
+  color: #c40000;
+}
+
+/*尾部*/
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer a {
+  diplay: inline-block;
+  padding: 0 10px;
+  border-right: 1px solid #000;
+}
+
+.footer a:last-child {
+  border: 0 none;
+}
+
+.footer a:hover {
+  color: #ff0421;
+}
+
+main .form .form_l .fl_bottom .iphone .a1, main .form .form_l .fl_bottom .mima .user .a1, main .form .form_l .fl_bottom .code .unicode .a1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  diplay: block;
+  padding: 0 12px 0 18px;
+  color: #ccc;
+  text-align: center;
+  line-height: 53px;
+  height: 100%;
+  font-size: 15px;
+}
+
+main .form .form_l .fl_bottom .iphone, main .form .form_l .fl_bottom .mima, main .form .form_l .fl_bottom .code .unicode {
+  position: relative;
+}
+
+main .form {
+  width: 980px;
+  border: 6px solid #ccc;
+  margin: 34px 120px 0;
+  background: #fff;
+}
+
+main .form .form_l {
+  width: 600px;
+  padding: 100px 42px;
+  border-right: 1px solid #ccc;
+}
+
+main .form .form_l .fl_top {
+  height: 85px;
+  line-height: 85px;
+  border-bottom: 1px solid #ddd;
+}
+
+main .form .form_l .fl_top li {
+  text-align: center;
+  border-bottom: 4px solid #CF000D;
+  margin-top: -2px;
+  position: relative;
+}
+
+main .form .form_l .fl_top li a {
+  width: 257px;
+  height: 24px;
+  line-height: 24px;
+  border-right: 1px solid #ccc;
+}
+
+main .form .form_l .fl_top li .resgIcon {
+  width: 15px;
+  height: 24px;
+  background: url(../img/loginIcon.gif) no-repeat -387px -5px;
+}
+
+main .form .form_l .fl_top li .smallArrow {
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translate(0 -50%);
+  border: 4px solid transparent;
+  border-top-color: #CF000D;
+}
+
+main .form .form_l .fl_bottom {
+  padding: 32px 83px 62px;
+}
+
+main .form .form_l .fl_bottom input {
+  width: 348px;
+  height: 53px;
+  padding-left: 75px;
+}
+
+main .form .form_l .fl_bottom .mima {
+  height: 118px;
+  padding-left: 102px;
+}
+
+main .form .form_l .fl_bottom .mima input {
+  padding-left: 90px;
+}
+
+main .form .form_l .fl_bottom .mima .user {
+  line-height: 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+main .form .form_l .fl_bottom .mima .user:nth-child(2) {
+  top: 52px;
+  left: 0;
+}
+
+main .form .form_l .fl_bottom .mima .user .a1:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+main .form .form_l .fl_bottom .code .unicode input {
+  width: 190px;
+}
+
+main .form .form_l .fl_bottom .code .yanzheng {
+  float: left;
+}
+
+main .form .form_l .fl_bottom .code .yanzheng .yanText {
+  display: inline-block;
+  width: 110px;
+  height: 53px;
+  border: 2px solid #ddd;
+  margin-left: 5px;
+  text-align: center;
+  line-height: 53px;
+}
+
+main .form .form_l .fl_bottom .code .yanzheng a {
+  line-height: 53px;
+  text-align: center;
+}
+
+main .form .form_l .fl_bottom .registe a {
+  display: block;
+  width: 283px;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(#fa413f, #ff6261);
+  color: #fff;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 14px;
+  border: 1px solid #a8221f;
+  border-radius: 2px;
+}
+
+main .form .form_r {
+  width: 368px;
+  padding: 100px 0 100px 35px;
+}

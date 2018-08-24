@@ -1,0 +1,159 @@
+/*注册*/
+@import './login_registe';
+%span{
+	position:absolute;
+	top: 0;
+	left: 0;
+	diplay:block;
+	padding: 0 12px 0 18px;
+	color:#ccc;
+	text-align: center;
+	line-height: 53px;
+	height: 100%;
+	font-size: 15px;
+}
+
+%relative{
+	position: relative;
+	
+}
+
+main{
+	.form{
+		width: 980px;
+		border: 6px solid #ccc;
+		margin: 34px 120px 0;
+		background: #fff;
+		.form_l{
+			width: 600px;
+			padding: 100px 42px;
+			border-right: 1px solid #ccc;
+			.fl_top{
+				height: 85px;
+				line-height: 85px;
+				border-bottom: 1px solid #ddd;
+				li{
+					text-align: center;
+					border-bottom: 4px solid #CF000D;
+					margin-top: -2px;
+					position: relative;
+
+					a{
+						width: 257px;
+						height:24px;
+						line-height: 24px;
+						border-right: 1px solid #ccc;
+					}
+					.resgIcon{
+						width: 15px;
+						height: 24px;
+	    				background: url(../img/loginIcon.gif) no-repeat -387px -5px;
+					}
+					.smallArrow{
+						width: 4px;
+						height: 4px;
+						position: absolute;
+						bottom: -12px;
+						left: 50%;
+						transform: translate(0 -50%);
+						border:4px solid transparent;
+						border-top-color:#CF000D;
+					}
+				}
+			}
+			.fl_bottom{
+				padding: 32px 83px 62px;
+				input{
+					width: 348px;
+					height:53px;
+					padding-left: 75px;
+				}
+				.iphone{
+					@extend %relative;
+					.a1{
+						@extend %span;
+					}
+				}
+				.mima{
+					@extend %relative;
+					height: 118px;
+					padding-left:102px;
+					input{
+						padding-left: 90px;
+					}
+					.user{
+						line-height:53px;
+						position: absolute;
+						top: 0;
+						left: 0;
+						&:nth-child(2){
+							top: 52px;
+							left: 0;
+						}
+						.a1{
+							@extend %span;
+							&:nth-child(2){
+								position:absolute;
+								top:0;
+								left:0;
+								z-index: 999;
+							}
+						}
+					}
+				}
+
+				.code{
+					.unicode{
+					@extend %relative;
+					.a1{
+						@extend %span;
+					}
+					input{
+						width: 190px;
+					}
+				}
+					.yanzheng{
+						float: left;
+						.yanText{
+							display:inline-block;
+							width:110px;
+							height: 53px;
+							border: 2px solid #ddd;
+							margin-left: 5px;
+							text-align:center;
+							line-height:53px;
+						}
+						a{
+							line-height: 53px;
+							text-align: center;
+						}
+					}
+
+
+				}
+				.registe{
+					a{
+						display:block;
+						width: 283px;
+						height: 40px;
+						line-height: 40px;
+						background: linear-gradient(#fa413f,#ff6261);
+						color: #fff;
+						text-align: center;
+						letter-spacing: 2px;
+						font-size: 14px;
+					    border: 1px solid #a8221f;
+					    border-radius: 2px;
+					}
+				}
+			}
+
+		}
+
+
+		.form_r{
+			width: 368px;
+			padding:  100px 0 100px 35px;
+		}
+	}
+}
