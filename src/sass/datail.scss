@@ -68,15 +68,155 @@
 					}
 				}
 
-
 			}
 		}
 		.list_r{
 			width: 520px;
 			height: 200px;
 			margin-left: 20px;
-			.price{
-				height: 97px;
+			.price{	
+				margin: 10px;
+				padding: 10px 0 10px 10px;
+				background: url('../img/datail/pricBg.gif');
+				color: #666;
+				.priceSpan{
+					font-size: 24px;
+					font-weight: 900;
+					padding-top: 3px;
+					color: #f40000;
+				}
+				.youhui{
+				    background: #c40000;
+				    color: #fff;
+				    line-height: 18px;
+				    padding: 2px 2px 1px 2px;
+				}
+			}	
+			.send{
+				height: 25px;
+				ling-height: 25px;
+				.address{
+					display: inline-block;
+				    height: 24px;
+				    line-height: 24px;
+				    padding: 0 5px;
+				    background: #fff;
+				    border: 1px solid #ccc;
+				}
+			}
+			.love{
+				height: 36px;
+				line-height: 36px;
+				margin-top: 17px;
+				div{
+					dislay: inline-block;
+					float: left;
+					text-align: center;
+					width: 170px;
+					border: 1px solid #ccc;
+					span{
+						padding: 0 20px;
+					}
+				}
+			}
+			.link{
+				text-align: left;
+				color:#666;
+				.guanlian{
+					color:#666;
+					margin-top: 20px;
+				}
+				ul{
+					width: 486px;
+					padding-left: 10px;
+					li{
+						float: left;
+						height: 33px;
+						line-height: 33px;
+						white-space:nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						border: 1px solid #ccc;
+						margin: 10px 10px;
+						img{
+							display: inline-block;
+							height: 100%;
+						}
+						&:nth-child(2){
+							border: 1px solid #f40000;
+						}
+						&:hover{
+							border: 1px solid #f40000;
+						}
+					}
+				}
+			}
+			.num{
+				input{
+					width: 50px;
+					height: 30px;
+				}
+				.calc{
+					margin-left: 5px;
+					div{
+						width: 15px;
+						height: 12px;
+						line-height: 12px;
+						text-align: center;
+						border: 1px solid #ccc; 
+						cursor: pointer;
+						&:last-child{
+							margin-top: 5px;
+						}
+					}
+				}
+			}
+			.buy{
+				margin-top: 20px;
+				position: relative;
+				z-index: 999;
+				a{
+					width: 180px;
+					height: 40px;
+					line-height: 40px;
+					text-align: center;
+					background: url('../img/datail/addBuy.jpg') no-repeat;
+					&:last-child{
+						background: url('../img/datail/Detail_bg.gif') no-repeat -586px -460px;
+						margin-left: 16px;
+					}
+				}
+				.erCode{
+					width:130px;
+					padding: 5px;
+					text-align: right;
+					margin-top: 11px;
+					background: #fff;
+					position: absolute;
+					right: 0;
+					span{
+						color: #666;
+					}
+					img{
+						width: 100%;
+						height: 100%;
+						margin-top: 5px;
+						display: none;
+					}
+					&:hover{
+						border: 1px solid #ccc;
+						cursor: pointer;
+						box-shadow: 3px 3px 10px #666;
+						img{
+							display: block;
+						}
+					}
+				}
+			}
+			.msg{
+				margin-top: 20px;
+				positio: relative;
+				z-index:999;
 			}
 		}
 	}	
