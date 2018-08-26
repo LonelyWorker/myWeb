@@ -611,3 +611,366 @@ nav .navList li a:not(.navA):hover {
 .roll li:hover {
   background: red;
 }
+
+/*顶部菜单导航*/
+nav .navList {
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+nav .navList li .caidan {
+  display: none;
+  position: relative;
+}
+
+nav .navList li:first-child {
+  font-size: 18px;
+  padding: 0;
+  width: 185px;
+  height: 100%;
+  background: #CC0210;
+  position: relative;
+  text-align: center;
+  z-index: 999;
+}
+
+nav .navList li:first-child:hover .caidan {
+  display: block;
+}
+
+nav .navList li:first-child li {
+  float: none;
+  height: 45px;
+  background: rgba(196, 0, 0, 0.9);
+}
+
+nav .navList li:first-child li:hover {
+  background: #c40000;
+}
+
+nav .navList li:first-child li a {
+  display: block;
+}
+
+nav .navList li:first-child li a:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+nav .navList li:first-child li a em {
+  color: rgba(255, 255, 255, 0.3);
+  float: right;
+  top: -2px;
+  font-size: 25px;
+}
+
+nav .navList li:first-child li a img {
+  display: block;
+  margin-top: 11px;
+  float: left;
+  margin-left: 10px;
+  margin-right: -5px;
+}
+
+nav .navList li:first-child li .sjBox {
+  position: absolute;
+  width: 1016px;
+  top: 0;
+  left: 185px;
+  border-top: 1px solid #ddd;
+  background: white;
+  color: black;
+  display: none;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft {
+  width: 733px;
+  padding-bottom: 141px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l {
+  padding: 15px 35px 0 40px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l:nth-child(3) {
+  width: 290px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l:nth-child(4) {
+  width: 290px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxTop {
+  height: 41px;
+  line-height: 41px;
+  border-bottom: 1px solid #ccc;
+  font-size: 12px;
+  text-align: left;
+  color: black;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom {
+  text-align: left;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a {
+  display: inline-block;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a span {
+  font-size: 12px;
+  padding-right: 10px;
+}
+
+nav .navList li:first-child li .sjBox .boxLeft .box_l .boxBottom a span:not(.teMai) {
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+}
+
+nav .navList li:first-child li .sjBox .boxRight {
+  width: 283px;
+  padding: 19px 17px;
+  background: #f6f6f6;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods {
+  width: 244px;
+  border: 1px solid #ccc;
+  border-right: 0 none;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods li {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goods li img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+nav .navList li:first-child li .sjBox .boxRight .goodsImg img {
+  display: block;
+}
+
+nav .navList li:first-child li:hover .sjBox {
+  display: block;
+}
+
+nav .navList li:first-child li:nth-child(9):hover .sjBox {
+  display: none;
+}
+
+nav .navList li:first-child a {
+  color: white;
+}
+
+nav .navList li:not(.navTitle) {
+  padding: 0 25px;
+}
+
+nav .navList li:nth-child(3) {
+  position: relative;
+}
+
+nav .navList li:nth-child(3) i.hot {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  background: url("../img/hoticon.gif") no-repeat top right;
+  z-index: -1000;
+}
+
+nav .navList li a {
+  color: black;
+  display: inline-block;
+}
+
+nav .navList li a:not(.navA):hover {
+  color: #c40000;
+}
+
+/*底部*/
+.foot {
+  background: url("../img/footer_Bg.gif");
+}
+
+.foot .foot_top {
+  background: url("../img/footer_Bg.gif");
+  color: white;
+}
+
+.foot .foot_top .ftop {
+  border-bottom: 2px solid #ccc;
+}
+
+.foot .foot_top .ftop .top_l {
+  padding-top: 20px;
+  color: #000;
+}
+
+.foot .foot_top .ftop .top_l img {
+  diplay: inline-block;
+}
+
+.foot .foot_top .ftop .top_l .Wecat {
+  padding: 36px 0 0 13px;
+}
+
+.foot .foot_top .ftop .top_r {
+  padding: 10px 0;
+}
+
+.foot .foot_top .ftop .top_r .content {
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  text-align: right;
+}
+
+.foot .foot_top .ftop .top_r .codeImg {
+  width: 104px;
+  height: 104px;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+
+.foot .foot_top .ftop .top_r .codeImg img {
+  diplay: inline-block;
+  width: 100%;
+  vertical-align: center;
+}
+
+.foot .foot_top .fbottom .footer_link {
+  margin-top: 40px;
+}
+
+.foot .foot_top .fbottom .footer_link dl {
+  width: 170px;
+  float: left;
+}
+
+.foot .foot_top .fbottom .footer_link .firstDl {
+  margin-left: 100px;
+}
+
+.foot .foot_top .fbottom .footer_link a {
+  color: #ccc;
+}
+
+.foot .foot_top .fbottom .footer_link a:hover {
+  color: #c40000;
+}
+
+.foot_bottom {
+  padding: 83px;
+  text-align: center;
+  background: url("../img/baozheng_06.jpg") no-repeat;
+}
+
+.foot_bottom div {
+  padding: 10px 0;
+}
+
+.foot_bottom .b_top .friendLinkList a {
+  color: #000;
+}
+
+.foot_bottom .b_top .friendLinkList a:hover {
+  color: #c40000;
+}
+
+/*中间部分*/
+.main .listTab {
+  padding-top: 20px;
+}
+
+.main .listTab .list_l {
+  width: 561px;
+}
+
+.main .listTab .list_l .list_lt .pic_list .tab {
+  margin: 0 20px 0 40px;
+}
+
+.main .listTab .list_l .list_lt .pic_list .tab li {
+  width: 76px;
+  height: 76px;
+  border: 1px solid #ccc;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.main .listTab .list_l .list_lt .pic_list .tab li:hover {
+  border: 2px solid #c40000;
+}
+
+.main .listTab .list_l .list_lt .pic_list .tab li img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: cover;
+}
+
+.main .listTab .list_l .list_lt .pic_list .big_tab {
+  width: 420px;
+  height: 420px;
+  overflow: hidden;
+}
+
+.main .listTab .list_l .list_lt .pic_list .big_tab li {
+  float: left;
+}
+
+.main .listTab .list_l .list_lt .pic_list .big_tab li img {
+  width: 100%;
+  height: 100%;
+}
+
+.main .listTab .list_l .list_lb {
+  height: 45px;
+  line-height: 45px;
+  padding-left: 40px;
+}
+
+.main .listTab .list_l .list_lb .span_l {
+  display: inline-block;
+}
+
+.main .listTab .list_l .list_lb .span_l img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-left: 17px;
+}
+
+.main .listTab .list_l .list_lb .span_r {
+  padding-right: 20px;
+}
+
+.main .listTab .list_l .list_lb .span_r img {
+  vertical-align: center;
+}
+
+.main .listTab .list_r {
+  width: 520px;
+  height: 200px;
+  margin-left: 20px;
+}
+
+.main .listTab .list_r .price {
+  height: 97px;
+}

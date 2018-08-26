@@ -1,11 +1,21 @@
 /*轮播图*/
+  @import './header';
+
+  @import './base';
+  @import './footer';
   .swiper {
-    height: 420px;
+    height: 450px;
+
   .swiper-container {
       width: 100%;
       height: 100%;
       margin-left: auto;
       margin-right: auto;
+      &:hover{
+      .arrow{
+        display: block;
+      }
+    }
     .swiper-slide {
       text-align: center;
       font-size: 18px;
@@ -22,7 +32,24 @@
       -ms-flex-align: center;
       -webkit-align-items: center;
       align-items: center;
+      cursor: pointer;
     }
+      .arrow{
+          width: 100px;
+          height: 150px;
+          margin-left: 180px;
+          background: rgba(0, 0, 0, .6);
+          color: #fff;
+          font-weight: lighter;
+          text-align:center;
+          line-height: 150px;
+          font-size: 50px;
+          display:none;
+          code{
+            background: none;
+            color: #ccc;
+          }
+      }
     span{
       width: 20px;
       height: 20px;
@@ -53,18 +80,63 @@
 
 /*酒品*/
 .drink{
-  padding: 27px 0;
+  padding: 0 0 27px;
   li{
     width: 280px;
     height: 320px;
     border: 1px solid #ccc;
-    margin-left: 19px;
+    margin: 22px 19px 0 0;
+    &:hover{
+      cursor: pointer;
+      box-shadow: 0 15px 20px #ccc ;
+    }
     &:first-child{
       width: 581px;
       margin-left: 0;
+      .item-msg{
+      span{
+        display: block;
+        height: 56px;
+        &:first-child{
+          width: 420px;
+          float:left;
+        }
+        &:last-child{
+          padding-right: 16px;
+          float:right;
+        }
+      } 
+    }
     }
     &:nth-child(4){
       margin-left: 0;
+    }
+    img{
+      display: block;
+      width: 100%;
+      heigh: 100%;
+    }
+    .item-msg{
+      span{
+        display: block;
+        height: 56px;
+        line-height: 56px;
+        font-style: normal;
+        font-size: 20px;
+        padding-left: 10px;
+        &:first-child{
+          width: 180px;
+          float:left;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        &:last-child{
+          padding-right: 16px;
+          float:right;
+          color: #A10000;
+        }
+      } 
     }
   }
 

@@ -3,7 +3,6 @@ jQuery($ => {
 	let  $title = $('.topHead .emTitle');
 
 	let $em = $('.emTitle em');
-	console.log($em);	
 	$title.on('mouseover', function(){
 		$em.css('transform', 'rotate(-180deg)');
 		$('.erCode').show();

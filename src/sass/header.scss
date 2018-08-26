@@ -67,7 +67,7 @@ body{
 			padding:0;
 			li{
 				a{
-					color:#f60;
+					color:#FFF600;;
 					span{
 							padding:0px 23px;
 							color:#ccc;
@@ -77,7 +77,7 @@ body{
 							}
 						}
 						&:hover{
-							color: rgba(171, 171, 172, .8);
+							color: rgba(171, 171, 172, .3);
 						}
 					}
 				
@@ -205,7 +205,6 @@ nav{
 		margin:0;
 		li{
 	    	.caidan{
-	    		display:none;
 	    		position:relative;
 	    	}
 			&:first-child{
@@ -222,12 +221,12 @@ nav{
 			    	height:45px;
 			    	background:rgba(196, 0, 0, 0.9);
 			    	&:hover{
-			    		background: rgba(196, 0, 0, .5);
+			    		background: rgba(196, 0, 0, 1);
 			    	}
 			    	a{
 			    		display:block;
 			    		&:hover{
-			    			color:rgba(255, 255, 255, 1);
+			    			background: rgba(255, 255, 255, .3);
 			    		}
 			    		em{
 						    color: rgba(255,255,255,.3);

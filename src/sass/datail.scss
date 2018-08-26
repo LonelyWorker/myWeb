@@ -1,0 +1,83 @@
+@import './header';
+@import './_var';
+@import './footer';
+
+
+
+
+/*中间部分*/
+.main{
+	.hover{
+	}
+	.listTab{
+		padding-top: 20px;
+		.list_l{
+			width: 561px;
+			.list_lt{
+				.pic_list{
+					.tab{
+						margin: 0 20px 0 40px;
+						li{
+							width: 76px;
+							height: 76px;
+							border: 1px solid #ccc;
+							float: none;
+							margin-bottom: 10px;
+							&:hover{
+								border: 2px solid #c40000;
+							}
+							img{
+								display: block;
+								width: 100%;
+								height: 100%;
+								background: cover;
+							}
+						}
+					}
+					.big_tab{
+						width: 420px;
+						height: 420px;
+						overflow: hidden;
+						li{
+							float: left;
+							img{
+								width: 100%;
+								height: 100%;
+							}
+						}
+					}
+				}
+			}
+			.list_lb{
+				height: 45px;
+				line-height: 45px;
+				padding-left: 40px;
+				.span_l{
+					display: inline-block;
+					img{
+						display: inline-block;
+						width: 20px;
+						height: 20px;
+						margin-left: 17px;
+					}
+				}
+				.span_r{
+					padding-right: 20px;
+					img{
+						vertical-align: center;
+					}
+				}
+
+
+			}
+		}
+		.list_r{
+			width: 520px;
+			height: 200px;
+			margin-left: 20px;
+			.price{
+				height: 97px;
+			}
+		}
+	}	
+}
